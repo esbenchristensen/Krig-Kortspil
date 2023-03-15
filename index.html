@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>WarZone Kortspil</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -42,6 +42,7 @@
 
                     <div class="col">
                         <h4 id="totalCardsInGame"></h4>
+                        <h4 id="rounds"></h4>
                     </div>
                     <div class="col">
                         <h4 id="playerTwoCardsLeft"></h4>
@@ -57,7 +58,7 @@
                         <img id="playerOneCardImage" class="kortimg" src="#" alt="" />
                         <img id="playerOneWarCardImage2" class="kortimg" src="#" alt="" />
                     </div>
-                    <div class="col"></div>
+                    <div class="col"><h3 id="war"></h3></div>
                     <div id="playerTwoCol" class="col">
                         <img id="playerTwoWarCardImage1" class="kortimg" src="#" alt="" />
                         <img id="playerTwoCardImage" class="kortimg" src="#" alt="" />
@@ -79,9 +80,17 @@
         <footer class="sticky-bottom">
             <div class="container-fluid">
                 <div class="row text-center">
-                    <div class="col">f</div>
-                    <div class="col"><button onclick="initGame()" class="btn btn-secondary mb-3">Start spil</button></div>
-                    <div class="col"><button onclick="newGame.drawCard();" class="btn btn-secondary mb-3">Draw Card</button></div>
+                    <div class="col"></div>
+                    <div class="col">
+                        <button onclick="initGame()" class="btn btn-secondary mb-3">Start spil</button>
+                    </div>
+                    <div class="col">
+                        <button onclick="autoPlay()" class="btn btn-secondary mb-3">Auto Play</button>
+                    </div>
+                    <div class="col">
+                        <button onclick="newGame.drawCard();" class="btn btn-secondary mb-3">Draw Card</button>
+                    </div>
+                    <div class="col"></div>
                 </div>
             </div>
         </footer>
