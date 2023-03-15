@@ -1,0 +1,2 @@
+            document.querySelector("#spillerOne").className ="winner");
+            document.querySelector("#spillerTwo").classList.toggle("looser");q

@@ -1,0 +1,28 @@
+main {
+    height: 100%;
+}
+
+.kortimg {
+    height: 150px;
+    width: auto;
+}
+
+.winner {
+    color: rgb(0, 195, 0);
+
+}
+
+.looser {
+    color: red;
+
+}
+
+.square {
+    padding: 10px;
+    height: 150px;
+    width: auto;
+    border-width: 10px;
+    border-color: rgb(255, 196, 0);
+    border-style: solid;
+    border-radius: 10px;
+}
